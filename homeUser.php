@@ -5,7 +5,7 @@ if(!isset($_SESSION['email']) && !isset($_SESSION['password'])){
 }
 
 if($_SESSION['role'] == "admin"){
-    header("Location: home_admin.php");
+    header("Location: homeAdmin.php");
 }
 ?>
 <!DOCTYPE html>
